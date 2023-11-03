@@ -1,0 +1,12 @@
+create table iot
+(
+    id         bigint auto_increment
+        primary key,
+    temp       int                                 null,
+    humidity   int                                 null,
+    light      int                                 null,
+    created_at timestamp default CURRENT_TIMESTAMP null,
+    led1       int                                 null,
+    led2       int                                 null
+);
+
